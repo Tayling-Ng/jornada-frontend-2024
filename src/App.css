@@ -1,3 +1,11 @@
 .card {
   border: 1px solid black;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 4px 4px white;
+  text-align: center;
+}
+
+.card > h2 {
+  
 }
