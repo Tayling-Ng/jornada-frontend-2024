@@ -17,7 +17,12 @@ function App() {
     image: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg'
   }
 
-  const itens = [item1, item2, item3]
+  const item4 = {
+    name: 'Beth Smith',
+    image: 'https://rickandmortyapi.com/api/character/avatar/4.jpeg'
+  }
+
+  const itens = [item1, item2, item3, item4]
 
   return (
     <>
@@ -25,7 +30,7 @@ function App() {
         {/* <Card item={item1} />
         <Card item={item2} />
         <Card item={item3} /> */}
-        {itens.map(item => <Card item={item} />)}
+        {itens.map((item, i) => <Card item={item} key={i} />)}
       </div>
     </>
   )
