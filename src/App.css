@@ -15,3 +15,21 @@
 .card > img {
     border-radius: 10px;
 }
+
+.tag{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+  max-width: 300px;
+  justify-content: center;
+}
+
+.tag {
+  background: rgb(220, 241, 23);
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
