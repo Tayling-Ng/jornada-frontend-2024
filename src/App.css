@@ -4,6 +4,7 @@
   padding: 16px;
   box-shadow: 10px 10px black;
   text-align: center;
+  cursor: pointer;
 }
 
 .card > h2 {
