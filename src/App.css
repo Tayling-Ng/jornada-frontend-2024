@@ -19,7 +19,7 @@
 .tag{
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 5px;
   margin-bottom: 24px;
   max-width: 300px;
   justify-content: center;
